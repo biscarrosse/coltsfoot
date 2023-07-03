@@ -1,4 +1,5 @@
-import adapter from '@sveltejs/adapter-static';
+// import adapter from '@sveltejs/adapter-static'; // TODO: it makes inlinse script after build that is not supported in manivest version 3
+import adapter from 'sveltekit-adapter-chrome-extension';
 // See https://kit.svelte.dev/docs/adapters for more information about adapters.
 
 /** @type {import('@sveltejs/kit').Config} */
